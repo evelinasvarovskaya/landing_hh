@@ -1,0 +1,120 @@
+.instructions {
+  position: relative;
+  background: none;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 400px;
+  margin-bottom: 200px;
+
+  &__ellipse {
+    position: absolute;
+    right: 0;
+    top: -850px;
+    z-index: -5;
+    img{
+      z-index: -3;
+    }
+    //background: #54B2FF;
+    //filter: blur(135px);
+    //height: 760px;
+    //width: 760px;
+    //position: absolute;
+    //z-index: -3;
+    //border-radius: 50%;
+    //right: -281px;
+    //top: -510px;
+  }
+  &__itemMain {
+    width: 1180px;
+    position: relative;
+    background: none;
+  }
+  &_title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 16px;
+    background: none;
+  }
+  &_header {
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 80px;
+    text-align: center;
+    color: #2C2D2E;
+    background: none;
+  }
+  &_description {
+    position: relative;
+    background: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 28px 300px 80px 300px;
+    text-align: center;
+    color: #2C2D2E;
+  }
+  &__questionList {
+    width: 700px;
+    background: none;
+  }
+  &__button {
+    background: #121212;
+    box-shadow: 0 41.7776px 33.4221px rgba(0, 0, 0, 0.246375), 0 22.3363px 17.869px rgba(0, 0, 0, 0.305), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.363625), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.438501), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.61);
+    border-radius: 14px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+}
+
+.dropdownCard {
+  &__preview {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+  }
+  &_title {
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2C2D2E;
+  }
+  &_arrow_list_previous {
+    background: #FFFFFF;
+  }
+  &_text {
+    margin-right: 25px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    background: none;
+    color: #2C2D2E;
+  }
+}
+
+.downCard, .dropCard {
+  padding: 28px 36px;
+  background: #FFFFFF;
+  box-shadow: 0 100px 80px rgba(153, 164, 184, 0.0393604), 0 41.7776px 33.4221px rgba(153, 164, 184, 0.056545), 0 22.3363px 17.869px rgba(153, 164, 184, 0.07), 0 12.5216px 10.0172px rgba(153, 164, 184, 0.083455), 0 6.6501px 5.32008px rgba(153, 164, 184, 0.10064), 0 2.76726px 2.21381px rgba(153, 164, 184, 0.14);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+

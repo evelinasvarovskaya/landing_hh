@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="statistic">
+            <div class="statistic__container">
+                <div class="statistic__mainText">
+                    <div class="statistic_title">статистика</div>
+                    <div class="statistic_description">
+                        <div class="statistic-backgroundBlur"></div>
+                        Работодатели мало знают о редких заболеваниях и опасаются таких кандидатов
+                    </div>
+                    <button class="statistic__button">
+                        <span class="statistic__button-format">PDF</span>
+                        Исследование
+                    </button>
+                </div>
+                <div>
+                    <div class="statistic__percents">
+                        <div class="statistic__percents__item ">
+                            <div class="statistic__percent">
+                                <div class="statistic__percent-num">38</div>
+                                <div class="statistic__percent-per">%</div>
+                            </div>
+                            <div class="statistic__percent_title">работодателей ищут информацию о том, какие условия труда нужно обеспечить для такого сотрудника</div>
+                        </div>
+                        <div class="statistic__percents__item">
+                            <div class="statistic__percent">
+                                <div class="statistic__percent-num">13</div>
+                                <div class="statistic__percent-per">%</div>
+                            </div>
+                            <div class="statistic__percent_title">стараются отказать такому кандидату под нейтральным предлогом</div>
+                        </div>
+                        <div class="statistic__percents__item">
+                            <div class="statistic__percent">
+                                <div class="statistic__percent-num">23</div>
+                                <div class="statistic__percent-per">%</div>
+                            </div>
+                            <div class="statistic__percent_title">рассматривают такого кандидата наравне с другими</div>
+                        </div>
+                        <div class="statistic__percents__item hide">
+                            <div class="statistic__percent">
+                                <div class="statistic__percent-num">3</div>
+                                <div class="statistic__percent-per">%</div>
+                            </div>
+                            <div class="statistic__percent_title">принимают на работу людей с инвалидностью, чтобы заполнить квоту</div>
+                        </div>
+                        <div class="statistic__percents__item hide">
+                            <div class="statistic__percent">
+                                <div class="statistic__percent-num">28</div>
+                                <div class="statistic__percent-per">%</div>
+                            </div>
+                            <div class="statistic__percent_title">боятся, что такого сотрудника будет почти невозможно уволить</div>
+                        </div>
+                        <div class="statistic__percents__item hide">
+                            <div class="statistic__percent">
+                                <div class="statistic__percent-num">49</div>
+                                <div class="statistic__percent-per">%</div>
+                            </div>
+                            <div class="statistic__percent_title">cчитают, нужно больше информировать по требованиям к условиям труда таких сотрудников</div>
+                        </div>
+                        <div class="statistic__percents__item hide">
+                            <div class="statistic__percent">
+                                <div class="statistic__percent-num">31</div>
+                                <div class="statistic__percent-per">%</div>
+                            </div>
+                            <div class="statistic__percent_title">считают, что найм людей с инвалидностью - вклад в улучшение репутации компании</div>
+                        </div>
+                    </div>
+                    <div class="statistic__circles">
+                        <div class="statistic__circles_item active" id="1" data-slide-to="0"></div>
+                        <div class="statistic__circles_item" id="2"></div>
+                        <div class="statistic__circles_item" id="3"></div>
+                        <div class="statistic__circles_item" id="4"></div>
+                        <div class="statistic__circles_item" id="5"></div>
+                        <div class="statistic__circles_item" id="6"></div>
+                        <div class="statistic__circles_item" id="7"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="instructions">
+            <div class="instructions__ellipse">
+                <img src="./icons/EllipseBlue.png" alt="#">
+            </div>
+            <div class="instructions__itemMain">
+                <div class="instructions_title">инструкции</div>
+                <div class="instructions_header">Основные вопросы работодателей</div>
+                <div class="instructions_description">Если в вашей компании более ста сотрудников, то, по <span style="color: #54B2FF; background: none">закону</span> «O квотировании рабочих мест», 2% из них должны составлять люди с инвалидностью.</div>
+            </div>
+            <div class="instructions__questionList">
+                <div class="dropCard" id="CardQue1">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Нужно ли оформить какие-то специальные документы?</div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_preview.png" alt="arrow"></div>
+                    </div>
+
+                </div>
+                <div class="downCard hide" id="CardAns1">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Нужно ли оформить какие-то специальные документы?</div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_next.png" alt="arrow"></div>
+                    </div>
+                    <div class="dropdownCard_text">Нет. Приём на работу человека с инвалидностью происходит так же, как оформление любого другого сотрудника. Единственное, что вам нужно будет сделать, — обратить внимание на трудовой договор. Если сотруднику полагается сокращённый трудовой день или увеличенный отпуск, всё это нужно прописать.
+                        <br><br>
+                        Если человеку должны предоставляться специальные условия труда, это тоже нужно обозначить в договоре: заменить фразу «работодатель создаёт работнику обычные условия труда» на «работодатель создаёт работнику специальные условия труда» и описать, какие именно условия труда вы создали.</div>
+                </div>
+
+                <div class="dropCard" id="CardQue2">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Какие льготы нужно предоставить сотруднику с инвалидностью?</div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_preview.png" alt="arrow"></div>
+                    </div>
+                </div>
+                <div class="downCard hide" id="CardAns2">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Какие льготы нужно предоставить сотруднику с инвалидностью?
+                        </div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_next.png" alt="arrow"></div>
+                    </div>
+                    <div class="dropdownCard_text">Если вы берёте на работу человека с инвалидностью I или II группы, то по ТК РФ его рабочее время должно быть сокращённым — не больше 35 часов в неделю. При этом оплата труда должна производиться в полном объёме.
+                        <br><br>
+                        Если у человека есть медицинское заключение о том, что его ежедневная работа не должна превышать определённого количества часов, это условие тоже нужно соблюдать.
+                        <br><br>
+                        Ещё одна льгота, которая полагается сотрудникам с инвалидностью I или II группы, — удлинённый отдых. Их ежегодный отпуск должен составлять не менее 30 календарных дней. Ещё такой сотрудник может взять до 60 календарных дней отпуска в году за свой счёт.
+                        <br><br>
+                        У сотрудника с инвалидностью I или II группы должна быть ИПРА — индивидуальная программа реабилитации и абилитации. В ней указано, какие условия труда ему нужно создать по закону. Правда, рекомендации в этом документе, как правило, очень общие. Лучше детально обсудить с самим сотрудником, что ему нужно для комфортной и безопасной работы.
+                        <br><br>
+                        Если сотрудник хочет воспользоваться своими льготами и гарантиями, нужно, чтобы он предоставил справку об инвалидности и ИПРА.
+                    </div>
+                </div>
+
+                <div class="dropCard" id="CardQue3">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">На какую должность можно взять человека с инвалидностью?</div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_preview.png" alt="arrow"></div>
+                    </div>
+                </div>
+                <div class="downCard hide" id="CardAns3">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">На какую должность можно взять человека с инвалидностью?
+                        </div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_next.png" alt="arrow"></div>
+                    </div>
+                    <div class="dropdownCard_text">На любую, если его квалификация соответствует этой должности и у него нет физических ограничений, которые помешали бы ему с ней справиться. Конечно, тут нужно руководствоваться здравым смыслом. Вряд ли человек, у которого есть сложности с передвижением, справится с работой, где нужно много ходить. Лучше нанимать соискателя на ту вакансию, которая ему подходит, и для которой его инвалидность не имеет значения.
+                        <br><br>
+                        Иногда в ИПРА встречаются рекомендации для работы по конкретной профессии или по специальности. Например, в документе у соискателя может быть написано, что ему рекомендовано работать курьером, а вы приглашаете его на офисную работу.
+                        <br><br>
+                        Чтобы не было проблем с законом, в такой ситуации соискателю лучше обратиться в местное бюро медико-социальной экспертизы и подать заявление, чтобы изменить запись. Обычно на это уходит примерно две недели.
+                    </div>
+                </div>
+
+                <div class="dropCard" id="CardQue4">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Как подготовить рабочее место для человека с инвалидностью?</div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_preview.png" alt="arrow"></div>
+                    </div>
+                </div>
+                <div class="downCard hide" id="CardAns4">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Как подготовить рабочее место для человека с инвалидностью?
+                        </div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_next.png" alt="arrow"></div>
+                    </div>
+                    <div class="dropdownCard_text">По закону вам нужно создать для работника с инвалидностью условия труда согласно его ИПРА — индивидуальной программе реабилитации и абилитации. В этом документе обозначается степень ограничения способности к трудовой деятельности. Всего их три.
+                        <br><br>
+                        — Первая степень означает, что человек может работать в обычных условиях, но тяжесть работы и её объем должны быть снижены.
+                        <br><br>
+                        — Вторая степень говорит о том, что для человека нужно создать специальные условия труда — с помощью оборудования или других людей.
+                        <br><br>
+                        — При третьей степени работа возможна только с помощью других людей или вообще противопоказана.
+                        <br><br>
+                        Все эти формулировки довольно расплывчаты. Лучше спросить у самого сотрудника, какое оборудование ему нужно для работы и что нужно переставить в офисе.
+                    </div>
+                </div>
+
+                <div class="dropCard" id="CardQue5">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Можно ли уволить человека с инвалидностью?</div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_preview.png" alt="arrow"></div>
+                    </div>
+                </div>
+                <div class="downCard hide" id="CardAns5">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Можно ли уволить человека с инвалидностью?
+                        </div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_next.png" alt="arrow"></div>
+                    </div>
+                    <div class="dropdownCard_text">Да, как и любого другого сотрудника. Правила для людей с инвалидностью ничем не отличаются от правил для всех остальных сотрудников. Если человек не выполняет свою работу или ведёт себя недопустимо, с таким работником можно расстаться — в этом не будет ничего аморального или противозаконного.
+                        <br><br>
+                        Единственное исключение — работники, которые получили трудовое увечье или профессиональное заболевание, пока работали у вас в компании, а также ветераны Великой Отечественной войны и боевых действий по защите Родины. Если в компании происходят сокращения, у таких работников есть преимущественное право на то, чтобы остаться в команде.
+                    </div>
+                </div>
+
+                <div class="dropCard" id="CardQue6">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Есть ли какие-то особые правила в общении с такими сотрудниками?</div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_preview.png" alt="arrow"></div>
+                    </div>
+                </div>
+                <div class="downCard hide" id="CardAns6">
+                    <div class="dropdownCard__preview">
+                        <div class="dropdownCard_title">Есть ли какие-то особые правила в общении с такими сотрудниками?
+                        </div>
+                        <div class="dropdownCard_arrow_list_previous"><img src="icons/arrow_list_next.png" alt="arrow"></div>
+                    </div>
+                    <div class="dropdownCard_text">Прежде всего, к людям с инвалидностью лучше относиться так же, как и ко всем остальным сотрудникам. Не пытаться специально выделить их среди других, не бояться делать им замечания, связанные с работой.
+                        <br><br>
+                        Не стоит говорить о сотрудниках так, будто они чем-то больны. Если вы скажете о человеке, что он «страдает ДЦП» или «прикован к коляске», это будет одновременно и невежливо, и просто неправильно. Инвалидность — не болезнь и не страдание. У всех сотрудников есть свои качества и особенности, и это — всего лишь одна из них.
+                        <br><br>
+                        Не нужно говорить об инвалидности как о чём-то, что характеризует человека. Если вы называете сотрудника «эпилептиком» или «аутистом», во-первых, это попросту некрасиво. Во-вторых, это звучит так, словно вы считаете инвалидность его основным качеством. Также лучше воздержаться от слов вроде «слепой», «глухой», «даун» — многие привыкли использовать их в повседневной речи как оскорбления. Они звучат грубо и неуважительно.
+                        <br><br>
+                        Главное — если вы не знаете, как правильно выразиться или как себя вести, лучше спросите об этом самого сотрудника. Скорее всего, он отнесётся к этому с пониманием, и будет рад, что вы заботитесь о его комфорте.
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="instructions__button">
+                Работать может каждый
+            </button>
+        </section>
+
+        <section class="share">
+            <div class="share__itemMain">
+                <div class="share-backgroundPink"></div>
+                <div class="instructions_title">поделиться</div>
+                <div class="instructions_header">Расскажите об этой проблеме другим</div>
+                <div class="share_description">Давайте вместе менять отношение общества к людям с редкими заболеваниями, поддерживать их, делиться информацией и советами, помогая справляться с трудностями. Так все больше людей будут иметь полноценную жизнь и получат шанс реализовать себя — независимо от диагнозов.</div>
+                <div class="share_arrow">
+                    <img src="./icons/arrow.png" alt="arrow">
+                </div>
+            </div>
+            <div class="share__socialButtons">
+                <div class="share__socialButtons_ellipse">
+                    <img src="./icons/facebook.png" alt="fb">
+                </div>
+                <div class="share__socialButtons_ellipse">
+                    <img src="./icons/vk.png" alt="vk">
+                </div>
+                <div class="share__socialButtons_ellipse">
+                    <img src="./icons/ok.png" alt="ok">
+                </div>
+                <div class="share__socialButtons_ellipse">
+                    <img src="./icons/twitter.png" alt="tw">
+                </div>
+                <div class="share__socialButtons_ellipse">
+                    <img src="./icons/link.png" alt="li">
+                </div>
+            </div>
+
+            <div class="share__footer">
+                <div class="share__footer_link">Манифест</div>
+                <div class="share__footer_link">Инструкции</div>
+                <div class="share__footer_link">Истории</div>
+                <div class="share__footer_link">Маяк</div>
+                <div class="share__footer_link">Партнеры</div>
+            </div>
+            <div class="share-backgroundBlue"></div>
+
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
